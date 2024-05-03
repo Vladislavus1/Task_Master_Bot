@@ -43,7 +43,7 @@ async def start(message: types.Message):
 async def help(message: types.Message):
     inline_keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [
-            InlineKeyboardButton(text="Github", url="https://github.com")
+            InlineKeyboardButton(text="Github", url="https://github.com/Vladislavus1/Task_Master_Bot")
         ],
         [
             InlineKeyboardButton(text="Official aiogram page", url="https://aiogram.dev")
